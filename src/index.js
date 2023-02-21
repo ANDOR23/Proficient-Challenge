@@ -1,13 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { Provider } from "jotai";
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
+
+import Layout from './components/Layout';
+import Content from './components/body/Content';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Provider>
+      <Router>
+        <Routes>
+          <Route path='/' element={<Layout />}>
+            <Route index element={<Content />} />
+          </Route>
+        </Routes>
+      </Router>
+    </Provider>
   </React.StrictMode>
 );
 
