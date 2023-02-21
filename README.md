@@ -1,8 +1,8 @@
 # READNME
 
 This is a Web App developed on ReactJS. 
-It's a moving aplication in which the user is able to choose what kind and how many forniture wants to move to its destiny.
-At the same time the app calculates how much it'll costs depending on several criteria.
+It's a moving application in which the user can choose what kind and how many furniture wants to move to its destiny. 
+At the same time, the app calculates how much it'll cost depending on several criteria.
 
 ## TOOLS & DEPENDENCIES
     *Framework -> ReactJS

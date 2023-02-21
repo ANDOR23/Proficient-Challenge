@@ -14,8 +14,8 @@ export const amountAtom = atom([
         m2: 1
     },
     {
-        image: "forniture",
-        name: "Forniture",
+        image: "furniture",
+        name: "Furniture",
         quantity: 0,
         m2: 0.5
     },
