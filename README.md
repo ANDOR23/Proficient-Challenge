@@ -11,4 +11,4 @@ At the same time, the app calculates how much it'll cost depending on several cr
 
 ## USE THE APP
 
-Go to this link to use the application: https://proficient-challenge.herokuapp.com/
+Go to this link to use the application: https://moving-app-j2n9.onrender.com
